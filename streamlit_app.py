@@ -29,7 +29,7 @@ conf_threshold = st.sidebar.slider(
 st.sidebar.info(f"當前過濾：僅顯示置信度 ≥ {conf_threshold} 的結果")
 
 # --- 主畫面 (Main) ---
-st.title("✌️ 勝利手勢 (Victory ???? Gesture) 偵測系統")
+st.title("✌️ 勝利手勢 (Victory Gesture) 偵測系統")
 st.markdown(f"**開發者：** {school} - {name}")
 
 # 2. 載入模型
